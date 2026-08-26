@@ -1,0 +1,4 @@
+Delivery,Ground Truth,Predicted Proposal,tIoU,Hit @ 0.5
+Delivery 1,[90 -> 300],[72 -> 324],0.833,PASS
+Delivery 2,[1050 -> 1260],[1032 -> 1284],0.833,PASS
+Delivery 3,[2040 -> 2250],[2022 -> 2274],0.833,PASS

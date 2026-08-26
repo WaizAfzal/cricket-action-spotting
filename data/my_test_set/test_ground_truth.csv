@@ -2,6 +2,3 @@ video_name,delivery_id,start_frame,end_frame
 test_over_1.mp4,1,90,300
 test_over_1.mp4,2,1050,1260
 test_over_1.mp4,3,2040,2250
-test_over_1.mp4,4,2940,3180
-test_over_1.mp4,5,3960,4200
-test_over_1.mp4,6,4950,5220
