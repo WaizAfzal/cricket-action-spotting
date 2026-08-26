@@ -1,0 +1,7 @@
+logs/GRU_*/
+*.png
+*.pyc
+c3dFinetuned_feats_*/
+logs_MainHL_GRU_all_Iters/
+HOOF_HL_bins100*/
+WtHOOF_HL_bins100*/

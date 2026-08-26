@@ -1,0 +1,173 @@
+############################################################
+SEQ_SIZE : 20
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449, 3676, 3489, 3433, 6478, 6404, 7127, 22888, 27834, 3008, 2417, 26842, 4936, 23403, 23183, 26396, 26753, 3433, 23176, 1518, 25907, 4978, 3875, 2176, 22903, 3937, 2242, 28125, 4581, 3152, 3915, 2363, 3010, 22403, 4114, 28697, 4996, 28850, 3837, 3994, 1954, 5115, 4577, 5009, 370, 4602, 1385, 3346, 4555, 2075, 4843, 2289, 28025, 3965, 3833, 3883, 3251, 28753, 5008, 3771, 3426, 3910, 5105, 4042, 3885, 3735, 4724, 2402, 5074, 3695, 2553, 22480, 4119, 22500, 3220, 22476, 30233, 2734, 4097]
+799495
+Loading features from disk...
+Features loaded into dictionary ...
+Features loaded into dictionary ...
+799495
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 1644.22641447 :: Accuracy : 0.752981569616 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 1591.14856267 :: Accuracy : 0.767734632487 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 1566.06443149 :: Accuracy : 0.773981075554 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 1545.30183271 :: Accuracy : 0.778847897735 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 1531.79890463 :: Accuracy : 0.781594631611 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 1517.5053184 :: Accuracy : 0.784950500003 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 1504.3547481 :: Accuracy : 0.788824195273 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 1499.11439013 :: Accuracy : 0.790417701174 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 1491.14781168 :: Accuracy : 0.792240101564 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 1494.25084934 :: Accuracy : 0.792296387094 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 1449.88100284 :: Accuracy : 0.800152596326 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 1410.16091207 :: Accuracy : 0.809119506689 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 1383.03110555 :: Accuracy : 0.815090776052 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 1360.40196794 :: Accuracy : 0.819652405581 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 1340.67438969 :: Accuracy : 0.824565506976 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 1326.36885509 :: Accuracy : 0.827647452454 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 1313.74731952 :: Accuracy : 0.831030838217 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 1302.39339021 :: Accuracy : 0.833776321303 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 1293.33185938 :: Accuracy : 0.835880149344 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 1282.73423852 :: Accuracy : 0.838630635589 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 1263.39300552 :: Accuracy : 0.842994640367 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 1249.52556404 :: Accuracy : 0.845760136086 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 1240.78183645 :: Accuracy : 0.847850205442 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 1233.58310258 :: Accuracy : 0.849344898967 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 1228.09439522 :: Accuracy : 0.850398063778 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 1222.95184273 :: Accuracy : 0.851580059913 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 1218.49180058 :: Accuracy : 0.852508145767 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 1214.42803007 :: Accuracy : 0.853675132427 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 1210.6573247 :: Accuracy : 0.854419352216 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 1206.64845923 :: Accuracy : 0.855368701493 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_hoofHLMain_log_hidden1k/GRU_HOOF_ep30_seq20_Adam.pt
+Time for training : 11950.3437378
+Prediction video meta info.
+Size : [4449, 4388, 4405, 4463, 5214]
+577441
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_hoofHLMain_log_hidden1k/predicted_localizations_test_th0_5_filt60_ep30_seq20.json !!
+Done 0 : hotstar/karnataka-stamp-class-on-day-1.mp4
+TIoU for video : 0.313618032794
+Done 1 : hotstar/Top 20 Crazy Moments In Cricket.mp4
+Done 2 : youtube/v_BBshznJqWFE.mp4
+Done 3 : youtube/v_19sVHiSbanM.mp4
+TIoU for video : 0.211400570102
+Done 4 : youtube/v_Mv4mzOxKyE8.mp4
+TIoU for video : 0.243923994697
+Done 5 : hotstar/day-1-england-ride-on-root-moeen.mp4
+TIoU for video : 0.310169980698
+Done 6 : hotstar/same-yuvraj-different-comeback.mp4
+TIoU for video : 0.0
+Done 7 : youtube/v_LtgHf51-i4U.mp4
+TIoU for video : 0.256175448483
+Done 8 : cpl2015/Game 28 highlights - Amazon Warriors vs Tridents _ CPL15.avi
+TIoU for video : 0.440346178753
+Done 9 : youtube/v_5wgFl-4X2-Q.mp4
+TIoU for video : 0.489017438446
+Done 10 : ipl2017/IPL2017 M11.avi
+TIoU for video : 0.289086425018
+Done 11 : youtube/v_-Wp7AhmHNAI.mp4
+TIoU for video : 0.301401606699
+Done 12 : youtube/v_ExNKybLxmoc.mp4
+TIoU for video : 0.232006979687
+Done 13 : youtube/v_EWnlXR7dqvU.mp4
+TIoU for video : 0.358499122279
+Done 14 : youtube/v_RSi3SiCJJsA.mp4
+TIoU for video : 0.319762021339
+Done 15 : hotstar/5th-test-rahuls-199-vs-eng.mp4
+TIoU for video : 0.0
+Done 16 : hotstar/IPL Super over.mp4
+TIoU for video : 0.095947063689
+Done 17 : youtube/v_6mi0vnPncSc.mp4
+TIoU for video : 0.230172010704
+Done 18 : hotstar/india-win-thriller-in-nagpur.mp4
+TIoU for video : 0.269679170001
+Done 19 : hotstar/1st-odi-kohlijadhavs-200run-stand.mp4
+TIoU for video : 0.384094090893
+Done 20 : youtube/v_QpwaoVZSChY.mp4
+Done 21 : ipl2017/IPL2017 M42.avi
+TIoU for video : 0.270010138855
+Done 22 : hotstar/yuvi-msd-give-ind-series-win.mp4
+TIoU for video : 0.326937274064
+Done 23 : youtube/v__tEb7K5jc7M.mp4
+TIoU for video : 0.307461081574
+Done 24 : youtube/v_-vlWskdBSQw.mp4
+TIoU for video : 0.193903630405
+Done 25 : hotstar/Highlights Australia v India, MCG.mp4
+TIoU for video : 0.267244521883
+Done 26 : hotstar/dhonis-134-tames-england.mp4
+TIoU for video : 0.309120236297
+Done 27 : youtube/v_Tb1V2UNSe3g.mp4
+TIoU for video : 0.339669893405
+Done 28 : youtube/v_M_92i_kasAs.mp4
+TIoU for video : 0.246590595177
+Done 29 : cpl2015/Game 7 highlights - Tridents vs Patriots _ CPL15.avi
+TIoU for video : 0.254272011791
+Total segments : 1169
+Total_tiou (all vids) : 305.469149842
+Weighted Averaged TIoU  : 0.261308083697
+#Parameters : 3307001 
+############################################################
+TIoU values written for all iterations !!

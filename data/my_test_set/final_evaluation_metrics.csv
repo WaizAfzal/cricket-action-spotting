@@ -1,0 +1,5 @@
+Delivery,Detected Time (s),Ground Truth (s),Error Delta (s),Status (<=0.5s)
+Delivery 1,5.17,5.1,0.07,PASS (Hit)
+Delivery 2,0.63,0.65,0.02,PASS (Hit)
+Delivery 3,3.27,3.3,0.03,PASS (Hit)
+Delivery 4,6.43,6.4,0.03,PASS (Hit)

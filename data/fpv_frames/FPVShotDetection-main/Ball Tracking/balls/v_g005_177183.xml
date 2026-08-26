@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>v_g005_c086_177183.jpg</filename>
+    <path>Test-Balls-PascalVOC-export/Annotations/v_g005_c086_177183.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>512</width>
+        <height>396</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>Ball</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>123.39823008849558</xmin>
+        <ymin>103.52941176470588</ymin>
+        <xmax>152.5259165613148</xmax>
+        <ymax>119.70588235294117</ymax>
+    </bndbox>
+</object>
+</annotation>

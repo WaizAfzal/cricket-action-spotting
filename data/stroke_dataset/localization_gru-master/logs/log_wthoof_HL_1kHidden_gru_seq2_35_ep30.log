@@ -1,0 +1,3298 @@
+############################################################
+SEQ_SIZE : 2
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71797
+Loading features from disk...
+Features loaded into dictionary ...
+71797
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 154.534596592 :: Accuracy : 0.711269273089 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 143.091391772 :: Accuracy : 0.73792776857 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 141.503534436 :: Accuracy : 0.741298382941 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 140.594846874 :: Accuracy : 0.743415463042 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 138.855094582 :: Accuracy : 0.749529924649 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 138.669394314 :: Accuracy : 0.747844617463 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 137.658189833 :: Accuracy : 0.750658105492 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 137.00267899 :: Accuracy : 0.75290053902 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 136.64358443 :: Accuracy : 0.752677688483 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 136.085722119 :: Accuracy : 0.752468766104 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 135.114279956 :: Accuracy : 0.755922949427 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 133.902366251 :: Accuracy : 0.758875719041 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 133.052588701 :: Accuracy : 0.760769948605 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 132.243739933 :: Accuracy : 0.762120979985 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 131.380297035 :: Accuracy : 0.765296600136 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 130.64043504 :: Accuracy : 0.767162973383 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 130.288359165 :: Accuracy : 0.768917921362 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 129.765430421 :: Accuracy : 0.767942950263 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 128.921921521 :: Accuracy : 0.769725754558 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 128.569916129 :: Accuracy : 0.770631084864 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 127.994645745 :: Accuracy : 0.771118570414 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 127.732131124 :: Accuracy : 0.771912475452 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 127.427678853 :: Accuracy : 0.772288535733 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 127.244370461 :: Accuracy : 0.773249578673 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 127.053556502 :: Accuracy : 0.77386241765 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 126.949961692 :: Accuracy : 0.774322046882 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 126.796541572 :: Accuracy : 0.774614538212 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 126.700893015 :: Accuracy : 0.775269161664 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 126.494440794 :: Accuracy : 0.77550594036 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 126.417130142 :: Accuracy : 0.775561652994 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq2_Adam.pt
+Time for training : 149.960067987
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22537
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq2.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.341295748771
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.358362244021
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.308730992705
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.273229898973
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.249741727849
+Total segments : 105
+Total_tiou (all vids) : 32.3429677064
+Weighted Averaged TIoU  : 0.30802826387
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 3
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71781
+Loading features from disk...
+Features loaded into dictionary ...
+71781
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 148.682282954 :: Accuracy : 0.729009069252 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 139.311566234 :: Accuracy : 0.753040498182 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 137.901227504 :: Accuracy : 0.756746214179 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 136.837279439 :: Accuracy : 0.760187236177 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 136.015646398 :: Accuracy : 0.75993647344 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 134.181427658 :: Accuracy : 0.765481116173 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 133.520559341 :: Accuracy : 0.765355734804 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 133.654651433 :: Accuracy : 0.765104972068 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 133.232903957 :: Accuracy : 0.766010504172 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 132.595362693 :: Accuracy : 0.768030537329 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 130.539112329 :: Accuracy : 0.769911257854 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 129.196169019 :: Accuracy : 0.774996168903 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 128.440223873 :: Accuracy : 0.776918683217 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 127.492043525 :: Accuracy : 0.779217341636 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 126.733976692 :: Accuracy : 0.780415430267 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 126.045241445 :: Accuracy : 0.782254357003 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 125.467638075 :: Accuracy : 0.782142906897 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 124.955958217 :: Accuracy : 0.784371909001 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 124.386058033 :: Accuracy : 0.784664465527 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 124.245860726 :: Accuracy : 0.78520778479 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 123.625164837 :: Accuracy : 0.78667056742 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 123.257166982 :: Accuracy : 0.787576099525 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 122.955410302 :: Accuracy : 0.788676669314 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 122.72992 :: Accuracy : 0.789289644892 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 122.506970048 :: Accuracy : 0.789916551734 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 122.32156685 :: Accuracy : 0.790418077207 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 122.129853308 :: Accuracy : 0.791156434154 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 121.981198162 :: Accuracy : 0.791685822153 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 121.782788604 :: Accuracy : 0.792563491732 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 121.669735879 :: Accuracy : 0.792647079311 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq3_Adam.pt
+Time for training : 197.423108816
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22532
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq3.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.3270954604
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.329140977986
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.422727683693
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.30407858253
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.323723919447
+Total segments : 105
+Total_tiou (all vids) : 35.6799880892
+Weighted Averaged TIoU  : 0.339809410374
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 4
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71765
+Loading features from disk...
+Features loaded into dictionary ...
+71765
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 145.929222167 :: Accuracy : 0.738995331986 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 136.690439701 :: Accuracy : 0.761290322581 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 133.698922098 :: Accuracy : 0.764091130774 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 132.872313738 :: Accuracy : 0.766724726538 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 132.924108088 :: Accuracy : 0.766989479551 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 131.977199644 :: Accuracy : 0.769177175503 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 131.378790557 :: Accuracy : 0.77176896816 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 131.221842319 :: Accuracy : 0.771378805825 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 130.264056385 :: Accuracy : 0.773343551871 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 129.845033437 :: Accuracy : 0.776799275413 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 128.749100804 :: Accuracy : 0.776952553473 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 127.286889046 :: Accuracy : 0.781801713927 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 126.448044896 :: Accuracy : 0.783710722497 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 125.380966008 :: Accuracy : 0.785926287187 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 124.610439062 :: Accuracy : 0.78794677071 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 123.754051358 :: Accuracy : 0.789395945099 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 123.206835508 :: Accuracy : 0.79095659444 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 122.787548721 :: Accuracy : 0.79254511252 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 122.248594463 :: Accuracy : 0.79476067721 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 121.471108764 :: Accuracy : 0.796377064028 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 120.664066583 :: Accuracy : 0.798021319585 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 120.241163462 :: Accuracy : 0.799874590678 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 120.053063989 :: Accuracy : 0.800097540584 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 119.74194628 :: Accuracy : 0.800069671846 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 119.493069291 :: Accuracy : 0.801086880791 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 119.287795573 :: Accuracy : 0.801881139831 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 119.111770868 :: Accuracy : 0.802340974012 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 118.963731676 :: Accuracy : 0.80238277712 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 118.728420824 :: Accuracy : 0.803539329757 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 118.574562609 :: Accuracy : 0.804013098307 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq4_Adam.pt
+Time for training : 239.692283869
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22527
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq4.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.350411725307
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.402763227953
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.409693210127
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.319072640959
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.340331433613
+Total segments : 105
+Total_tiou (all vids) : 38.3375476198
+Weighted Averaged TIoU  : 0.365119501141
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 5
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71749
+Loading features from disk...
+Features loaded into dictionary ...
+71749
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 143.574209869 :: Accuracy : 0.742184560064 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 134.522225887 :: Accuracy : 0.765934019986 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 132.050797313 :: Accuracy : 0.772205884403 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 131.047857672 :: Accuracy : 0.775090942034 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 130.615214646 :: Accuracy : 0.776345314917 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 129.680762231 :: Accuracy : 0.777739062565 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 129.575647712 :: Accuracy : 0.778421998913 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 128.444654286 :: Accuracy : 0.782240867469 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 128.067210197 :: Accuracy : 0.782185117563 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 128.668361396 :: Accuracy : 0.782073617751 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 125.978049874 :: Accuracy : 0.788526669361 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 124.377852678 :: Accuracy : 0.792178288199 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 123.296615809 :: Accuracy : 0.794798533777 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 122.382329613 :: Accuracy : 0.796415281049 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 121.543157637 :: Accuracy : 0.798924026816 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 120.77186662 :: Accuracy : 0.801195835482 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 120.030958354 :: Accuracy : 0.803830018537 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 119.539448023 :: Accuracy : 0.804429330026 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 118.970800072 :: Accuracy : 0.80532132852 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 118.356286585 :: Accuracy : 0.808415448299 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 117.494936556 :: Accuracy : 0.810840569207 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 117.09897691 :: Accuracy : 0.812178566949 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 116.667497128 :: Accuracy : 0.813711689362 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 116.399405658 :: Accuracy : 0.814185563562 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 116.138296813 :: Accuracy : 0.815091499533 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 115.961354136 :: Accuracy : 0.81581624831 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 115.746765703 :: Accuracy : 0.815704748498 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 115.543663234 :: Accuracy : 0.816081060363 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 115.345352083 :: Accuracy : 0.816833684093 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 115.037367046 :: Accuracy : 0.817196058482 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq5_Adam.pt
+Time for training : 286.723012924
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22522
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq5.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.407732825822
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.349494471365
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.510157197876
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.403144458786
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.38286405068
+Total segments : 105
+Total_tiou (all vids) : 42.7462776547
+Weighted Averaged TIoU  : 0.407107406235
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 6
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71733
+Loading features from disk...
+Features loaded into dictionary ...
+71733
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 141.849913836 :: Accuracy : 0.751676355373 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 133.040760607 :: Accuracy : 0.76996640319 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 131.561808944 :: Accuracy : 0.775333528502 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 129.127017707 :: Accuracy : 0.781341920734 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 127.826469094 :: Accuracy : 0.786193244392 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 128.192976534 :: Accuracy : 0.785816848591 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 127.987648487 :: Accuracy : 0.784854948211 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 126.965684354 :: Accuracy : 0.786109600881 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 127.277662486 :: Accuracy : 0.786276887904 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 126.19689244 :: Accuracy : 0.789985083574 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 123.672352821 :: Accuracy : 0.794738823136 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 122.072947413 :: Accuracy : 0.800036245522 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 120.65514186 :: Accuracy : 0.802517669692 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 119.755020469 :: Accuracy : 0.804845747424 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 118.9960711 :: Accuracy : 0.808038141441 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 118.141653627 :: Accuracy : 0.808930338896 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 117.578804404 :: Accuracy : 0.810826258486 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 117.052998513 :: Accuracy : 0.812540950469 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 116.342916489 :: Accuracy : 0.814395048304 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 115.755965471 :: Accuracy : 0.815133899321 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 115.053723574 :: Accuracy : 0.816960115986 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 114.362726897 :: Accuracy : 0.818270530997 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 114.024964958 :: Accuracy : 0.819901579468 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 113.660205066 :: Accuracy : 0.821044707457 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 113.383505255 :: Accuracy : 0.822257538371 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 113.176024944 :: Accuracy : 0.822619993587 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 112.951120794 :: Accuracy : 0.823317022849 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 112.76359266 :: Accuracy : 0.824209220303 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 112.461702019 :: Accuracy : 0.825380229462 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 112.252391905 :: Accuracy : 0.82620272399 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq6_Adam.pt
+Time for training : 329.117426872
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22517
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq6.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.360521948539
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.355948470478
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.492022964571
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.380608048348
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.377621531689
+Total segments : 105
+Total_tiou (all vids) : 41.0043736701
+Weighted Averaged TIoU  : 0.390517844477
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 7
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71717
+Loading features from disk...
+Features loaded into dictionary ...
+71717
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 139.536910027 :: Accuracy : 0.757421531854 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 131.079645038 :: Accuracy : 0.778337074892 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 129.439681619 :: Accuracy : 0.785183429312 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 127.958826572 :: Accuracy : 0.78819526751 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 127.345169008 :: Accuracy : 0.79228077025 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 126.770555526 :: Accuracy : 0.793396265878 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 126.817542106 :: Accuracy : 0.793675139786 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 125.693622023 :: Accuracy : 0.794344437163 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 124.287329704 :: Accuracy : 0.798750644896 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 124.576067775 :: Accuracy : 0.796449935162 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 123.052072108 :: Accuracy : 0.80183220157 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 121.192522228 :: Accuracy : 0.806600945383 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 119.852974474 :: Accuracy : 0.809891657487 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 118.893603295 :: Accuracy : 0.813293919154 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 117.920698345 :: Accuracy : 0.815246036505 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 116.870941401 :: Accuracy : 0.81760252102 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 116.246406645 :: Accuracy : 0.819652244238 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 115.431496799 :: Accuracy : 0.820586471827 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 114.732397348 :: Accuracy : 0.821799573323 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 114.182990998 :: Accuracy : 0.824699861957 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 113.266608834 :: Accuracy : 0.827349164075 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 112.635995984 :: Accuracy : 0.829245506644 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 112.158593982 :: Accuracy : 0.829691704896 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 111.84558019 :: Accuracy : 0.830765369438 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 111.653730989 :: Accuracy : 0.83220157006 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 111.403885424 :: Accuracy : 0.832605937225 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 111.040373087 :: Accuracy : 0.832829036351 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 110.763290584 :: Accuracy : 0.833777207636 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 110.628373146 :: Accuracy : 0.834558054576 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 110.352062702 :: Accuracy : 0.835004252827 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq7_Adam.pt
+Time for training : 374.747303963
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22512
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq7.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.373169461287
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.397753361367
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.534545361486
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.429332062597
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.401593454564
+Total segments : 105
+Total_tiou (all vids) : 44.5591050258
+Weighted Averaged TIoU  : 0.424372428818
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 8
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71701
+Loading features from disk...
+Features loaded into dictionary ...
+71701
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 138.926365197 :: Accuracy : 0.761635123638 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 130.457881123 :: Accuracy : 0.780867770324 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 127.705237985 :: Accuracy : 0.788231684356 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 126.177041233 :: Accuracy : 0.792820183819 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 124.872203231 :: Accuracy : 0.797394736475 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 124.899014652 :: Accuracy : 0.793712779459 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 124.321044356 :: Accuracy : 0.799305449017 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 123.350236833 :: Accuracy : 0.799054406494 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 123.360465944 :: Accuracy : 0.79884520439 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 123.718129694 :: Accuracy : 0.798733629935 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 120.850094855 :: Accuracy : 0.805302575975 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 119.333014339 :: Accuracy : 0.809821341404 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 118.090275735 :: Accuracy : 0.812945426145 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 117.076358408 :: Accuracy : 0.815553479031 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 116.200151682 :: Accuracy : 0.817980223428 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 115.317663848 :: Accuracy : 0.820351180597 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 114.452167988 :: Accuracy : 0.822289786753 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 113.715144902 :: Accuracy : 0.823907616351 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 112.943259269 :: Accuracy : 0.826222786293 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 112.491074413 :: Accuracy : 0.826948020251 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 111.500405341 :: Accuracy : 0.829444498682 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 110.927181602 :: Accuracy : 0.831173902735 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 110.503477901 :: Accuracy : 0.83258253023 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 110.310422719 :: Accuracy : 0.834186413021 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 109.870230377 :: Accuracy : 0.834674551261 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 109.573465198 :: Accuracy : 0.835511359674 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 109.246567786 :: Accuracy : 0.836515529769 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 109.288523793 :: Accuracy : 0.836892093555 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 108.96771282 :: Accuracy : 0.837603380706 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 108.628705919 :: Accuracy : 0.838384401891 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq8_Adam.pt
+Time for training : 422.616284132
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22507
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq8.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.454880006415
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.472387529982
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.473505041764
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.413309757831
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.419319204895
+Total segments : 105
+Total_tiou (all vids) : 46.9582751072
+Weighted Averaged TIoU  : 0.447221667688
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 9
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71685
+Loading features from disk...
+Features loaded into dictionary ...
+71685
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 137.482796371 :: Accuracy : 0.766004045477 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 128.241149426 :: Accuracy : 0.790207156309 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 126.08475244 :: Accuracy : 0.793569086978 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 125.643845469 :: Accuracy : 0.795828973983 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 125.489458889 :: Accuracy : 0.794378182325 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 124.788400531 :: Accuracy : 0.796596219572 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 123.929918975 :: Accuracy : 0.799037455535 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 123.745558888 :: Accuracy : 0.803138731952 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 122.5122087 :: Accuracy : 0.805384669038 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 122.892613649 :: Accuracy : 0.805328869359 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 120.452719808 :: Accuracy : 0.813601171793 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 117.83092919 :: Accuracy : 0.818455743879 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 116.773442715 :: Accuracy : 0.821203878078 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 115.606104434 :: Accuracy : 0.822808118853 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 114.78750816 :: Accuracy : 0.826435097998 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 113.730786383 :: Accuracy : 0.827885889656 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 113.01898694 :: Accuracy : 0.829699379229 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 112.50407204 :: Accuracy : 0.832391713748 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 111.831259131 :: Accuracy : 0.83356350701 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 111.070422888 :: Accuracy : 0.834358652438 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 110.044984639 :: Accuracy : 0.838083281021 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 109.284971178 :: Accuracy : 0.839645672037 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 108.799430877 :: Accuracy : 0.841152263374 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 108.457641929 :: Accuracy : 0.842547255353 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 108.441716045 :: Accuracy : 0.843621399177 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 107.948471665 :: Accuracy : 0.844290995327 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 108.102939695 :: Accuracy : 0.84472344284 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 107.394476086 :: Accuracy : 0.845825486503 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 107.169058174 :: Accuracy : 0.846271883937 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 106.744985752 :: Accuracy : 0.847248378322 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq9_Adam.pt
+Time for training : 467.356771946
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22502
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq9.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.429789294222
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.427061098657
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.552592419153
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.459077340759
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.470571814902
+Total segments : 105
+Total_tiou (all vids) : 48.8378524384
+Weighted Averaged TIoU  : 0.465122404176
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 10
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71669
+Loading features from disk...
+Features loaded into dictionary ...
+71669
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 136.103847682 :: Accuracy : 0.768030808299 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 127.110170722 :: Accuracy : 0.791095173646 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 125.345068812 :: Accuracy : 0.795602003656 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 124.19734782 :: Accuracy : 0.800862297507 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 123.200300306 :: Accuracy : 0.803820340733 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 122.523988456 :: Accuracy : 0.806973726437 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 121.840674222 :: Accuracy : 0.80623421563 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 121.694385439 :: Accuracy : 0.807308599255 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 121.189628452 :: Accuracy : 0.809150399754 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 120.381674051 :: Accuracy : 0.810029440902 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 118.845873237 :: Accuracy : 0.814940908901 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 116.687846005 :: Accuracy : 0.82060584074 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 115.035291761 :: Accuracy : 0.824094099262 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 113.693932444 :: Accuracy : 0.828712553545 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 112.459522367 :: Accuracy : 0.831098522374 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 111.684019566 :: Accuracy : 0.833707739748 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 110.858438909 :: Accuracy : 0.835158855293 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 109.855575711 :: Accuracy : 0.837768072667 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 109.062705994 :: Accuracy : 0.839023845735 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 108.306963325 :: Accuracy : 0.840558679485 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 107.2372742 :: Accuracy : 0.84354462878 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 106.57086283 :: Accuracy : 0.845023650393 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 106.095776945 :: Accuracy : 0.846725920551 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 105.730577886 :: Accuracy : 0.848763063528 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 105.418973953 :: Accuracy : 0.848986312074 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 105.074390858 :: Accuracy : 0.850144413903 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 104.785391361 :: Accuracy : 0.850618817062 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 104.533970237 :: Accuracy : 0.851358327868 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 104.270504743 :: Accuracy : 0.851790871925 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 103.992522776 :: Accuracy : 0.853311752641 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq10_Adam.pt
+Time for training : 509.934219837
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22497
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq10.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.437435720988
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.450977915476
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.547044383711
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.466453331767
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.431871626755
+Total segments : 105
+Total_tiou (all vids) : 48.8018341999
+Weighted Averaged TIoU  : 0.464779373332
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 11
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71653
+Loading features from disk...
+Features loaded into dictionary ...
+71653
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 135.755203813 :: Accuracy : 0.769165282682 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 126.539864063 :: Accuracy : 0.797635828228 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 124.809253722 :: Accuracy : 0.800734093478 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 123.78233549 :: Accuracy : 0.803036858192 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 122.734652549 :: Accuracy : 0.805674570499 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 121.629868001 :: Accuracy : 0.807921510614 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 120.66668126 :: Accuracy : 0.810391749124 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 120.980700225 :: Accuracy : 0.810503398322 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 120.122155637 :: Accuracy : 0.814173865714 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 119.625049472 :: Accuracy : 0.812889899934 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 116.497881919 :: Accuracy : 0.82067743151 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 114.522533298 :: Accuracy : 0.825966812276 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 113.117157131 :: Accuracy : 0.829427937421 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 111.864183605 :: Accuracy : 0.833726431552 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 110.755878359 :: Accuracy : 0.836796784503 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 109.949677676 :: Accuracy : 0.839141417666 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 109.164804131 :: Accuracy : 0.84140231393 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 108.241936445 :: Accuracy : 0.842337375965 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 107.528202206 :: Accuracy : 0.845030912872 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 106.7739124 :: Accuracy : 0.846538177048 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 105.702595681 :: Accuracy : 0.850264469038 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 104.976031959 :: Accuracy : 0.851981075461 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 104.540528178 :: Accuracy : 0.852999874395 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 104.147678643 :: Accuracy : 0.85392098028 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 103.816145539 :: Accuracy : 0.855246814509 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 103.499358982 :: Accuracy : 0.856293525742 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 103.238126427 :: Accuracy : 0.856921552482 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 102.941955686 :: Accuracy : 0.85828925516 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 102.662510663 :: Accuracy : 0.859238273345 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 102.420040995 :: Accuracy : 0.859866300085 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq11_Adam.pt
+Time for training : 564.782243013
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22492
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq11.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.436425592831
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.429505935634
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.541289961489
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.407466176578
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.450320818667
+Total segments : 105
+Total_tiou (all vids) : 47.3636498965
+Weighted Averaged TIoU  : 0.451082379967
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 12
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71637
+Loading features from disk...
+Features loaded into dictionary ...
+71637
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 134.695227861 :: Accuracy : 0.775227885031 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 125.332355887 :: Accuracy : 0.800563954381 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 123.701772034 :: Accuracy : 0.804598182503 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 122.279189259 :: Accuracy : 0.809107025699 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 121.613681585 :: Accuracy : 0.809218699834 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 120.781791955 :: Accuracy : 0.813448357692 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 120.944054693 :: Accuracy : 0.810405237517 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 119.324885309 :: Accuracy : 0.815988944261 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 118.813086092 :: Accuracy : 0.814928039979 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 118.790918589 :: Accuracy : 0.816421681533 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 116.298141032 :: Accuracy : 0.823471111297 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 114.002713412 :: Accuracy : 0.829892374053 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 112.493323833 :: Accuracy : 0.834708321119 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 111.181194484 :: Accuracy : 0.83648114801 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 110.261169046 :: Accuracy : 0.839998883259 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 109.268380314 :: Accuracy : 0.841464606279 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 108.225005329 :: Accuracy : 0.843753926044 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 107.245384634 :: Accuracy : 0.847467091028 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 106.355227619 :: Accuracy : 0.849142203051 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 105.653215051 :: Accuracy : 0.851361726482 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 104.636436969 :: Accuracy : 0.852897245837 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 103.891756326 :: Accuracy : 0.855437832405 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 103.406777292 :: Accuracy : 0.857322333431 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 103.021316648 :: Accuracy : 0.85866242305 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 102.663924575 :: Accuracy : 0.859527897595 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 102.301633894 :: Accuracy : 0.860519005542 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 101.963066339 :: Accuracy : 0.860965702081 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 101.713235825 :: Accuracy : 0.861928891495 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 101.460984975 :: Accuracy : 0.86279436604 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 101.185915142 :: Accuracy : 0.863115429178 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq12_Adam.pt
+Time for training : 627.754918098
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22487
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq12.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.379892264126
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.437220445496
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.582169230492
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.399829928313
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.447188961039
+Total segments : 105
+Total_tiou (all vids) : 46.919810366
+Weighted Averaged TIoU  : 0.446855336819
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 13
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71621
+Loading features from disk...
+Features loaded into dictionary ...
+71621
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 134.872051001 :: Accuracy : 0.778039960347 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 124.654266983 :: Accuracy : 0.804568492481 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 123.149362803 :: Accuracy : 0.807835690649 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 120.977109134 :: Accuracy : 0.813979140196 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 119.845951587 :: Accuracy : 0.817120676896 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 119.32598415 :: Accuracy : 0.816017648455 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 119.128163666 :: Accuracy : 0.816464444786 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 119.252949238 :: Accuracy : 0.818796163137 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 118.847910106 :: Accuracy : 0.818419178732 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 118.612763077 :: Accuracy : 0.819242959467 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 115.587377459 :: Accuracy : 0.824478853967 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 113.187374413 :: Accuracy : 0.83210231636 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 111.804075122 :: Accuracy : 0.836584242052 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 110.449598551 :: Accuracy : 0.84047974756 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 109.370486915 :: Accuracy : 0.842909202608 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 108.219536096 :: Accuracy : 0.846092626464 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 107.292209208 :: Accuracy : 0.849220200779 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 106.4442406 :: Accuracy : 0.850351153991 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 105.438579708 :: Accuracy : 0.852250038397 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 104.648985863 :: Accuracy : 0.854847042069 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 103.679508418 :: Accuracy : 0.857639519135 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 102.909589797 :: Accuracy : 0.860376146661 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 102.413705468 :: Accuracy : 0.861311626478 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 101.985883743 :: Accuracy : 0.862596165929 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 101.623827875 :: Accuracy : 0.86390863015 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 101.284338742 :: Accuracy : 0.864844109968 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 100.995974302 :: Accuracy : 0.865626003546 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 100.7400316 :: Accuracy : 0.865919213638 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 100.478267789 :: Accuracy : 0.866854693456 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 100.224411309 :: Accuracy : 0.867301489787 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq13_Adam.pt
+Time for training : 693.683820963
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22482
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq13.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.419085248109
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.42930469799
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.592957953563
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.367206010315
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.519036886789
+Total segments : 105
+Total_tiou (all vids) : 48.6141989086
+Weighted Averaged TIoU  : 0.462992370558
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 14
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71605
+Loading features from disk...
+Features loaded into dictionary ...
+71605
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 133.132791191 :: Accuracy : 0.782571049508 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 124.260659039 :: Accuracy : 0.805572236576 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 121.627420694 :: Accuracy : 0.813295160952 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 120.924958259 :: Accuracy : 0.814314642832 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 120.024685293 :: Accuracy : 0.818602052929 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 119.107689053 :: Accuracy : 0.819579638293 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 119.570424914 :: Accuracy : 0.818546190908 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 119.061437428 :: Accuracy : 0.81828084631 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 118.393033534 :: Accuracy : 0.818504294393 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 117.300369978 :: Accuracy : 0.824467565114 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 114.104365885 :: Accuracy : 0.832874799246 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 111.977037311 :: Accuracy : 0.837860484603 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 110.4378739 :: Accuracy : 0.842510997835 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 109.007549852 :: Accuracy : 0.846155994693 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 107.833948344 :: Accuracy : 0.848208923958 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 106.880004615 :: Accuracy : 0.851923748342 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 105.863395959 :: Accuracy : 0.854339780742 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 104.793585926 :: Accuracy : 0.854688918372 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 104.057962537 :: Accuracy : 0.857035123246 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 102.99749434 :: Accuracy : 0.860372878989 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 101.738260597 :: Accuracy : 0.863068221493 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 100.978308648 :: Accuracy : 0.865819426018 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 100.429878324 :: Accuracy : 0.867313735074 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 100.06835857 :: Accuracy : 0.867551148663 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 99.7595977783 :: Accuracy : 0.868710285595 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 99.437918812 :: Accuracy : 0.869562181412 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 99.1507573724 :: Accuracy : 0.869855457021 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 98.859154433 :: Accuracy : 0.870888904406 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 98.5958491862 :: Accuracy : 0.871307869562 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 98.3252412975 :: Accuracy : 0.872089937854 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq14_Adam.pt
+Time for training : 752.666083097
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22477
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq14.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.456953279582
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.505139465195
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.629472109946
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.517958407508
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.45291865946
+Total segments : 105
+Total_tiou (all vids) : 53.5497961237
+Weighted Averaged TIoU  : 0.509998058321
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 15
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71589
+Loading features from disk...
+Features loaded into dictionary ...
+71589
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 132.485045046 :: Accuracy : 0.78440821914 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 123.445459604 :: Accuracy : 0.809328248753 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 121.747260392 :: Accuracy : 0.815488413024 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 120.750606865 :: Accuracy : 0.817737361885 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 119.856118441 :: Accuracy : 0.820391400914 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 118.894188225 :: Accuracy : 0.821033957731 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 118.39678973 :: Accuracy : 0.819162161785 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 117.725102931 :: Accuracy : 0.824065149674 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 116.800685316 :: Accuracy : 0.82569947897 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 116.264616102 :: Accuracy : 0.827138247496 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 113.09765926 :: Accuracy : 0.834443839137 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 110.804726213 :: Accuracy : 0.841078936708 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 109.200993329 :: Accuracy : 0.844696810963 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 107.815461427 :: Accuracy : 0.84790959505 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 106.74674347 :: Accuracy : 0.850815069354 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 105.737111568 :: Accuracy : 0.852547179036 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 104.667415679 :: Accuracy : 0.855997429773 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 103.641491055 :: Accuracy : 0.859154339354 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 102.435003519 :: Accuracy : 0.861654723491 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 101.583148062 :: Accuracy : 0.863386833173 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 100.50054571 :: Accuracy : 0.866767240777 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 99.6834097505 :: Accuracy : 0.869267624914 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 99.1773057878 :: Accuracy : 0.870580675802 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 98.7862424552 :: Accuracy : 0.871726103172 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 98.4201767743 :: Accuracy : 0.872717875651 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 98.0814259648 :: Accuracy : 0.873388369722 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 97.7338221073 :: Accuracy : 0.873961083407 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 97.454087317 :: Accuracy : 0.874631577477 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 97.1776460111 :: Accuracy : 0.8753300088 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 96.8871911764 :: Accuracy : 0.875958596991 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq15_Adam.pt
+Time for training : 807.325666189
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22472
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq15.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.470514111618
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.50330381702
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.555486894227
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.496590454991
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.428337244106
+Total segments : 105
+Total_tiou (all vids) : 51.4412301688
+Weighted Averaged TIoU  : 0.489916477798
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 16
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71573
+Loading features from disk...
+Features loaded into dictionary ...
+71573
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 132.855303973 :: Accuracy : 0.783340086345 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 122.939858139 :: Accuracy : 0.809299596216 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 121.519039601 :: Accuracy : 0.813924245176 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 120.024666101 :: Accuracy : 0.818087826415 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 118.473537982 :: Accuracy : 0.820728486999 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 117.484166533 :: Accuracy : 0.822363181647 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 117.33558625 :: Accuracy : 0.82310368435 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 116.347697973 :: Accuracy : 0.826652508628 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 115.261199653 :: Accuracy : 0.830983750856 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 115.411521554 :: Accuracy : 0.827295209087 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 112.012605548 :: Accuracy : 0.836251100275 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 109.592337161 :: Accuracy : 0.842999455102 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 107.915032715 :: Accuracy : 0.846031324662 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 106.540936977 :: Accuracy : 0.849202911713 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 105.341141403 :: Accuracy : 0.852639961997 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 104.249746829 :: Accuracy : 0.855322537829 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 103.310854971 :: Accuracy : 0.8565660235 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 102.2098777 :: Accuracy : 0.860212650022 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 101.268201321 :: Accuracy : 0.863300406578 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 100.347469896 :: Accuracy : 0.865466027692 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 99.3860124946 :: Accuracy : 0.86725441158 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 98.5479587913 :: Accuracy : 0.86947591969 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 98.0145074427 :: Accuracy : 0.871641540804 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 97.6305039525 :: Accuracy : 0.872298213013 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 97.285377562 :: Accuracy : 0.873192404957 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 96.9753719866 :: Accuracy : 0.87458957987 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 96.688613236 :: Accuracy : 0.874924901848 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 96.3792570829 :: Accuracy : 0.875567602308 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 96.0858007967 :: Accuracy : 0.875791150294 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 95.7977612615 :: Accuracy : 0.877006692468 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq16_Adam.pt
+Time for training : 860.724070787
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22467
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq16.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.545679343888
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.550784297563
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.590723357732
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.504077176493
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.500385877585
+Total segments : 105
+Total_tiou (all vids) : 56.4914801192
+Weighted Averaged TIoU  : 0.538014096374
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 17
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71557
+Loading features from disk...
+Features loaded into dictionary ...
+71557
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 132.487946719 :: Accuracy : 0.78826669648 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 122.811669022 :: Accuracy : 0.811576784941 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 120.391363561 :: Accuracy : 0.818703970261 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 119.349365026 :: Accuracy : 0.821652668502 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 118.644606739 :: Accuracy : 0.820870075604 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 118.383611113 :: Accuracy : 0.82397249745 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 118.429169923 :: Accuracy : 0.822798608103 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 117.636842668 :: Accuracy : 0.824419693391 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 117.114720911 :: Accuracy : 0.8230082312 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 116.201615602 :: Accuracy : 0.82815098453 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 112.852817595 :: Accuracy : 0.838702013779 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 110.398883671 :: Accuracy : 0.844655309753 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 108.720804065 :: Accuracy : 0.848428525511 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 107.210018277 :: Accuracy : 0.85269086183 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 105.736638308 :: Accuracy : 0.855863158042 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 104.667265534 :: Accuracy : 0.858085162877 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 103.603583008 :: Accuracy : 0.860740388781 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 102.652173638 :: Accuracy : 0.863758961387 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 101.772134423 :: Accuracy : 0.865324147183 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 100.685710073 :: Accuracy : 0.867755775116 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 99.6012500525 :: Accuracy : 0.870508825132 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 98.82843557 :: Accuracy : 0.872982377685 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 98.3241714239 :: Accuracy : 0.874100367539 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 97.9308549166 :: Accuracy : 0.874799111198 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 97.5246401429 :: Accuracy : 0.875777352321 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 97.2160404325 :: Accuracy : 0.876476095979 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 96.9041748047 :: Accuracy : 0.877803708931 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 96.5518775582 :: Accuracy : 0.878670151068 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 96.2746945024 :: Accuracy : 0.879536593205 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 96.021224916 :: Accuracy : 0.879648392191 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq17_Adam.pt
+Time for training : 910.343303919
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22462
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq17.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.509687511553
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.554995895379
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.603687234595
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.475545732996
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.547298728862
+Total segments : 105
+Total_tiou (all vids) : 56.497584655
+Weighted Averaged TIoU  : 0.53807223481
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 18
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71541
+Loading features from disk...
+Features loaded into dictionary ...
+71541
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 132.454451174 :: Accuracy : 0.788359122741 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 121.259132743 :: Accuracy : 0.817405403894 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 119.67697534 :: Accuracy : 0.82050851959 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 117.924218297 :: Accuracy : 0.826505081003 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 117.301592261 :: Accuracy : 0.827092156945 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 117.052579463 :: Accuracy : 0.824729875176 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 116.791341096 :: Accuracy : 0.825540599097 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 116.977848798 :: Accuracy : 0.828825428775 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 116.148579627 :: Accuracy : 0.830376986623 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 115.341776878 :: Accuracy : 0.8326554004 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 112.797601312 :: Accuracy : 0.838861631792 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 110.43238917 :: Accuracy : 0.844802281209 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 108.594959289 :: Accuracy : 0.85081282062 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 107.030488074 :: Accuracy : 0.853244992382 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 105.787810594 :: Accuracy : 0.856515844061 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 104.69152692 :: Accuracy : 0.860052277715 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 103.610233337 :: Accuracy : 0.861715659552 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 102.412361026 :: Accuracy : 0.865126291218 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 101.524659067 :: Accuracy : 0.866705805063 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 100.220312148 :: Accuracy : 0.868858416852 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 98.9891598821 :: Accuracy : 0.872017444542 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 98.1779227555 :: Accuracy : 0.873988342349 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 97.662561357 :: Accuracy : 0.875134538237 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 97.298037082 :: Accuracy : 0.876112998141 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 96.9822975993 :: Accuracy : 0.877007590053 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 96.7170006037 :: Accuracy : 0.877664555989 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 96.3609538674 :: Accuracy : 0.87888064187 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 96.0755577981 :: Accuracy : 0.879495673809 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 95.8483337462 :: Accuracy : 0.880096727751 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 95.4994946122 :: Accuracy : 0.880823583679 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq18_Adam.pt
+Time for training : 963.60835886
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22457
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq18.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.446619498717
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.533521675501
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.565535629572
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.52409872271
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.490546381357
+Total segments : 105
+Total_tiou (all vids) : 53.7121551097
+Weighted Averaged TIoU  : 0.511544334378
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 19
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71525
+Loading features from disk...
+Features loaded into dictionary ...
+71525
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 131.168939382 :: Accuracy : 0.791261796575 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 120.819138914 :: Accuracy : 0.81760223698 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 118.48425132 :: Accuracy : 0.825697308633 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 118.06401971 :: Accuracy : 0.826396364907 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 117.432902455 :: Accuracy : 0.828227892345 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 116.180362999 :: Accuracy : 0.831695211465 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 116.660315067 :: Accuracy : 0.830828381685 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 116.170407593 :: Accuracy : 0.830450891297 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 115.15159899 :: Accuracy : 0.832212513107 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 114.204006135 :: Accuracy : 0.83548409647 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 110.91633448 :: Accuracy : 0.840447396015 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 108.242139786 :: Accuracy : 0.849577070954 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 106.455303729 :: Accuracy : 0.853855295351 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 104.90222463 :: Accuracy : 0.856329954561 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 103.787935019 :: Accuracy : 0.859405802167 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 102.466354042 :: Accuracy : 0.86357217756 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 101.541457266 :: Accuracy : 0.86515204474 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 100.340261519 :: Accuracy : 0.868815099616 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 99.2211226523 :: Accuracy : 0.871401607829 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 98.2985326946 :: Accuracy : 0.874002097169 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 96.8623204231 :: Accuracy : 0.877105907026 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 95.9857808352 :: Accuracy : 0.879832226494 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 95.4993981123 :: Accuracy : 0.880699056274 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 95.0490940213 :: Accuracy : 0.881845508563 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 94.7198473215 :: Accuracy : 0.882698357218 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 94.4026513994 :: Accuracy : 0.883089828731 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 94.0823514163 :: Accuracy : 0.884068507515 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 93.792185694 :: Accuracy : 0.884725620412 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 93.4628338218 :: Accuracy : 0.885522544565 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 93.1080321074 :: Accuracy : 0.886053827333 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq19_Adam.pt
+Time for training : 1013.32129097
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22452
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq19.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.474855658777
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.544944258783
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.613871714801
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.535560346299
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.529975261261
+Total segments : 105
+Total_tiou (all vids) : 56.5548810388
+Weighted Averaged TIoU  : 0.538617914655
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 20
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71509
+Loading features from disk...
+Features loaded into dictionary ...
+71509
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 131.497607797 :: Accuracy : 0.791578682404 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 121.321630597 :: Accuracy : 0.818792040163 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 119.324450999 :: Accuracy : 0.821491001133 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 116.90508014 :: Accuracy : 0.826441426953 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 116.31835413 :: Accuracy : 0.828734844565 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 115.923122317 :: Accuracy : 0.830720608595 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 115.128803909 :: Accuracy : 0.831587632326 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 114.713455468 :: Accuracy : 0.832049112699 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 114.509791464 :: Accuracy : 0.832258876505 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 113.641204 :: Accuracy : 0.834524325609 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 110.264863878 :: Accuracy : 0.841824106057 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 107.520656705 :: Accuracy : 0.848494595086 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 105.705747992 :: Accuracy : 0.853025493295 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 104.046190798 :: Accuracy : 0.855640548742 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 103.036616266 :: Accuracy : 0.859598092548 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 101.721901059 :: Accuracy : 0.862548770085 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 100.894474298 :: Accuracy : 0.863961179712 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 99.5228440166 :: Accuracy : 0.866911857249 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 98.617195487 :: Accuracy : 0.868771762995 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 97.5387640893 :: Accuracy : 0.871680487771 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 96.0342209637 :: Accuracy : 0.876337244263 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 95.1292727888 :: Accuracy : 0.87823910277 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 94.700347811 :: Accuracy : 0.879301906054 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 94.3055542111 :: Accuracy : 0.880140961278 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 93.8459650278 :: Accuracy : 0.881427512621 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 93.5300361812 :: Accuracy : 0.882266567845 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 93.2065098584 :: Accuracy : 0.882951796277 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 92.9716181755 :: Accuracy : 0.883483197919 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 92.6882737875 :: Accuracy : 0.884028583815 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 92.363096267 :: Accuracy : 0.884741780755 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq20_Adam.pt
+Time for training : 1066.83516312
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22447
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq20.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.491579103176
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.521070590045
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.670217665541
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.505952670919
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.56265246144
+Total segments : 105
+Total_tiou (all vids) : 57.4977460817
+Weighted Averaged TIoU  : 0.54759758173
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 21
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71493
+Loading features from disk...
+Features loaded into dictionary ...
+71493
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 131.20802328 :: Accuracy : 0.793490271775 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 122.327470273 :: Accuracy : 0.81788426839 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 119.169672459 :: Accuracy : 0.824304477361 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 117.828213811 :: Accuracy : 0.825885051683 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 116.753568232 :: Accuracy : 0.829605695663 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 115.799042225 :: Accuracy : 0.83096247185 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 115.031600952 :: Accuracy : 0.832095449904 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 113.908755153 :: Accuracy : 0.834557229379 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 113.515774429 :: Accuracy : 0.837970150924 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 113.411321878 :: Accuracy : 0.836851160253 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 110.071832269 :: Accuracy : 0.848852335194 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 107.223715931 :: Accuracy : 0.855174632482 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 105.06216538 :: Accuracy : 0.859105087211 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 103.291459411 :: Accuracy : 0.86381883541 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 101.710241765 :: Accuracy : 0.867329668639 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 100.530141562 :: Accuracy : 0.868672457443 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 99.2249671817 :: Accuracy : 0.870001258865 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 98.304046154 :: Accuracy : 0.87250500049 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 97.1776556969 :: Accuracy : 0.875442350999 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 95.8928391933 :: Accuracy : 0.878253815059 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 94.4062687159 :: Accuracy : 0.881470913236 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 93.4755723327 :: Accuracy : 0.88351307121 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 93.0281074047 :: Accuracy : 0.885247506749 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 92.5330455005 :: Accuracy : 0.886184661435 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 92.2135048211 :: Accuracy : 0.886590295553 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 91.8949060142 :: Accuracy : 0.887093841355 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 91.5005719364 :: Accuracy : 0.888156882492 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 91.2535859048 :: Accuracy : 0.888380680626 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 90.9110164046 :: Accuracy : 0.889094037178 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 90.6793676317 :: Accuracy : 0.889779418964 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq21_Adam.pt
+Time for training : 1119.25580907
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22442
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq21.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.457528870613
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.542898816835
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.617264767911
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.531838960414
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.531095161628
+Total segments : 105
+Total_tiou (all vids) : 56.1554860797
+Weighted Averaged TIoU  : 0.53481415314
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 22
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71477
+Loading features from disk...
+Features loaded into dictionary ...
+71477
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 130.76357013 :: Accuracy : 0.796088252165 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 121.046349347 :: Accuracy : 0.820277851617 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 118.963907868 :: Accuracy : 0.822684220099 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 117.537654579 :: Accuracy : 0.826699497741 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 116.025426716 :: Accuracy : 0.829763420401 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 114.980834335 :: Accuracy : 0.833303020552 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 113.388326049 :: Accuracy : 0.835555493375 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 113.419105113 :: Accuracy : 0.834967891769 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 112.522130162 :: Accuracy : 0.84036823034 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 112.693539739 :: Accuracy : 0.838087776488 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 108.995251417 :: Accuracy : 0.848580662311 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 106.252085984 :: Accuracy : 0.854526630944 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 104.521554083 :: Accuracy : 0.859745092827 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 103.179373503 :: Accuracy : 0.86348056018 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 101.667990983 :: Accuracy : 0.86569106146 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 100.230526447 :: Accuracy : 0.870056101963 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 99.156319201 :: Accuracy : 0.871441162892 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 98.2005967498 :: Accuracy : 0.874980763043 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 97.2429782152 :: Accuracy : 0.876323852428 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 96.2390762866 :: Accuracy : 0.877666941813 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 94.7211338282 :: Accuracy : 0.882815451124 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 93.89550367 :: Accuracy : 0.884983980861 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 93.3763174415 :: Accuracy : 0.88561355401 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 93.0035489202 :: Accuracy : 0.886676833107 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 92.7126379013 :: Accuracy : 0.887963960435 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 92.2398442924 :: Accuracy : 0.888313723296 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 91.9229241908 :: Accuracy : 0.889404983421 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 91.6135303974 :: Accuracy : 0.89041230046 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 91.3481701314 :: Accuracy : 0.891013892581 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 90.9941408932 :: Accuracy : 0.891013892581 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq22_Adam.pt
+Time for training : 1171.63961506
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22437
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq22.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.494705082202
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.567593442236
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.615053191554
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.541328743164
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.543637650962
+Total segments : 105
+Total_tiou (all vids) : 57.9400255129
+Weighted Averaged TIoU  : 0.55180976679
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 23
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71461
+Loading features from disk...
+Features loaded into dictionary ...
+71461
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 130.165106267 :: Accuracy : 0.796742279005 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 119.610576034 :: Accuracy : 0.823288227145 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 117.893800259 :: Accuracy : 0.830005177649 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 117.072691619 :: Accuracy : 0.828927666839 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 115.201098651 :: Accuracy : 0.831796364451 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 114.002978772 :: Accuracy : 0.83476301759 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 112.895725995 :: Accuracy : 0.840948209513 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 112.120390981 :: Accuracy : 0.83947887659 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 112.671199948 :: Accuracy : 0.838821175186 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 112.507928342 :: Accuracy : 0.837337848617 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 109.732631654 :: Accuracy : 0.843844894418 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 106.624603838 :: Accuracy : 0.850813730566 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 104.619754761 :: Accuracy : 0.854564027931 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 102.883158535 :: Accuracy : 0.860385385035 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 101.629875064 :: Accuracy : 0.863939771344 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 100.33576104 :: Accuracy : 0.866108786611 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 98.8930052221 :: Accuracy : 0.870670715495 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 97.6362626553 :: Accuracy : 0.873637368635 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 96.6143448651 :: Accuracy : 0.876254180602 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 95.4003931582 :: Accuracy : 0.878563132338 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 94.1072656214 :: Accuracy : 0.880718153958 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 93.1707267165 :: Accuracy : 0.882607296287 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 92.698048234 :: Accuracy : 0.884314521207 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 92.2427329421 :: Accuracy : 0.88578385413 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 91.8207247257 :: Accuracy : 0.886917339528 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 91.4471493661 :: Accuracy : 0.887659002813 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 91.103322953 :: Accuracy : 0.888064818572 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 90.8641683161 :: Accuracy : 0.889338240439 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 90.5616474152 :: Accuracy : 0.890205846546 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 90.3495647907 :: Accuracy : 0.890625655952 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq23_Adam.pt
+Time for training : 1220.02269101
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22432
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq23.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.506869643064
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.54357012993
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.682646355301
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.53913989805
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.570344840883
+Total segments : 105
+Total_tiou (all vids) : 59.4202659929
+Weighted Averaged TIoU  : 0.565907295171
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 24
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71445
+Loading features from disk...
+Features loaded into dictionary ...
+71445
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 130.015203446 :: Accuracy : 0.799216180279 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 120.466962814 :: Accuracy : 0.82193295542 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 118.283873349 :: Accuracy : 0.828147526069 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 116.983536452 :: Accuracy : 0.830401007768 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 115.158922225 :: Accuracy : 0.835397858493 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 115.427773595 :: Accuracy : 0.835383861712 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 114.534736335 :: Accuracy : 0.834684022675 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 114.033088386 :: Accuracy : 0.836363636364 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 113.322469056 :: Accuracy : 0.839904821891 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 113.513693511 :: Accuracy : 0.837735320876 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 110.368797541 :: Accuracy : 0.846581286304 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 107.345024616 :: Accuracy : 0.853943592974 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 105.237868756 :: Accuracy : 0.859458324585 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 103.959164619 :: Accuracy : 0.861725803065 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 102.105582118 :: Accuracy : 0.866596682763 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 100.693724483 :: Accuracy : 0.870193855413 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 99.3886016011 :: Accuracy : 0.872797256631 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 98.5570037365 :: Accuracy : 0.874742809154 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 97.5864127278 :: Accuracy : 0.878311988243 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 96.6344623864 :: Accuracy : 0.879151795087 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 95.0837242007 :: Accuracy : 0.883000909791 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 94.2635476589 :: Accuracy : 0.884848484848 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 93.8795560896 :: Accuracy : 0.88601021765 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 93.5321313441 :: Accuracy : 0.886906011617 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 93.0794584453 :: Accuracy : 0.88752186997 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 92.6881435215 :: Accuracy : 0.888375673595 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 92.4295238256 :: Accuracy : 0.88903352229 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 92.0636781305 :: Accuracy : 0.889425432151 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 91.8365978003 :: Accuracy : 0.890139267968 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 91.5790924728 :: Accuracy : 0.890755126321 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq24_Adam.pt
+Time for training : 1274.02966309
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22427
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq24.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.530064718898
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.53551064573
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.6766275176
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.540857962618
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.566035264697
+Total segments : 105
+Total_tiou (all vids) : 59.5434372398
+Weighted Averaged TIoU  : 0.567080354664
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 25
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71429
+Loading features from disk...
+Features loaded into dictionary ...
+71429
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 130.927332342 :: Accuracy : 0.795979224125 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 119.83777374 :: Accuracy : 0.825043049742 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 118.152882516 :: Accuracy : 0.828053031682 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 116.203771085 :: Accuracy : 0.830321018074 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 114.796998262 :: Accuracy : 0.834548992706 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 114.41651845 :: Accuracy : 0.833107001358 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 114.498075694 :: Accuracy : 0.836928978426 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 113.059135795 :: Accuracy : 0.84041495751 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 112.43605566 :: Accuracy : 0.84027495835 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 113.160380304 :: Accuracy : 0.83852496885 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 108.32482177 :: Accuracy : 0.849906900559 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 105.578272939 :: Accuracy : 0.856584860491 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 103.245621234 :: Accuracy : 0.861274832351 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 101.994734883 :: Accuracy : 0.865208808747 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 100.624231249 :: Accuracy : 0.868470789175 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 98.7067171335 :: Accuracy : 0.872810763135 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 97.4296196103 :: Accuracy : 0.875848744908 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 95.9982673675 :: Accuracy : 0.877864732812 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 94.8181601316 :: Accuracy : 0.881658710048 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 93.7999717444 :: Accuracy : 0.88420669476 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 92.727145195 :: Accuracy : 0.88763667418 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 92.1514695287 :: Accuracy : 0.889764661412 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 91.1577258706 :: Accuracy : 0.890688655868 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 91.1211444736 :: Accuracy : 0.891668649988 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 90.5661529899 :: Accuracy : 0.892760643436 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 89.7965451926 :: Accuracy : 0.89365663806 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 89.3191499952 :: Accuracy : 0.894748631508 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 89.1959901899 :: Accuracy : 0.895322628064 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 89.0889343917 :: Accuracy : 0.89652662084 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 88.7294686735 :: Accuracy : 0.897254616472 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq25_Adam.pt
+Time for training : 1330.16677403
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22422
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq25.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.491615724868
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.533623258198
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.603706239506
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.517055286273
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.569137205246
+Total segments : 105
+Total_tiou (all vids) : 56.8942940052
+Weighted Averaged TIoU  : 0.541850419098
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 26
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71413
+Loading features from disk...
+Features loaded into dictionary ...
+71413
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 129.468717605 :: Accuracy : 0.802248890258 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 119.192370743 :: Accuracy : 0.825339924103 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 117.746522099 :: Accuracy : 0.830058952852 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 115.349477381 :: Accuracy : 0.834427905283 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 113.931690037 :: Accuracy : 0.837172503606 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 114.164205313 :: Accuracy : 0.838390769188 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 112.997983038 :: Accuracy : 0.840071135508 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 111.105849773 :: Accuracy : 0.844720148992 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 111.174105704 :: Accuracy : 0.844748155098 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 112.353684217 :: Accuracy : 0.841779507933 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 108.792939097 :: Accuracy : 0.851189559324 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 105.515127569 :: Accuracy : 0.857252881128 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 103.536418289 :: Accuracy : 0.862546035036 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 101.826640069 :: Accuracy : 0.866732947783 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 100.137821466 :: Accuracy : 0.869911640738 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 98.7298734784 :: Accuracy : 0.872180135269 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 97.4124495089 :: Accuracy : 0.875470852646 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 96.3740042746 :: Accuracy : 0.877795359388 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 95.2199176252 :: Accuracy : 0.880203884447 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 94.0815812647 :: Accuracy : 0.882906473611 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 92.5887971222 :: Accuracy : 0.88537101088 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 91.7525551915 :: Accuracy : 0.888017587834 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 91.2588821948 :: Accuracy : 0.889249856469 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 90.8604755402 :: Accuracy : 0.890104042681 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 90.4493732154 :: Accuracy : 0.891476341843 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 90.1026871204 :: Accuracy : 0.891518351001 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 89.8000384569 :: Accuracy : 0.89277862574 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 89.4692184031 :: Accuracy : 0.893814851638 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 89.178330332 :: Accuracy : 0.894444989008 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 88.876211822 :: Accuracy : 0.894865080588 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq26_Adam.pt
+Time for training : 1376.69635201
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22417
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq26.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.504567906384
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.533909521106
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.672975912289
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.51936783077
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.569039774619
+Total segments : 105
+Total_tiou (all vids) : 58.5334887565
+Weighted Averaged TIoU  : 0.557461797681
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 27
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71397
+Loading features from disk...
+Features loaded into dictionary ...
+71397
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 129.881459713 :: Accuracy : 0.800089639621 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 119.991571784 :: Accuracy : 0.824670504363 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 116.086708933 :: Accuracy : 0.831127358292 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 114.588968545 :: Accuracy : 0.836155580767 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 113.947464943 :: Accuracy : 0.836099556004 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 113.006010413 :: Accuracy : 0.837220051263 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 111.677366912 :: Accuracy : 0.841267840385 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 111.477415115 :: Accuracy : 0.841463927056 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 111.187615216 :: Accuracy : 0.842290292309 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 111.489996433 :: Accuracy : 0.840385450369 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 107.863582402 :: Accuracy : 0.846996372397 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 104.764551908 :: Accuracy : 0.855218006359 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 102.509764969 :: Accuracy : 0.860862501226 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 100.694653511 :: Accuracy : 0.864658178915 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 99.2057603896 :: Accuracy : 0.867851590403 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 97.7208491564 :: Accuracy : 0.871899379526 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 96.4032605588 :: Accuracy : 0.875961174839 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 95.1579262614 :: Accuracy : 0.879644803003 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 93.8630787432 :: Accuracy : 0.883062313543 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 92.8710588217 :: Accuracy : 0.8835805426 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 91.4193181098 :: Accuracy : 0.886661904562 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
+Phase : Train :: Epoch : 22 :: Loss : 90.5828445256 :: Accuracy : 0.888650783646 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 23 
+Phase : Train :: Epoch : 23 :: Loss : 90.0340340137 :: Accuracy : 0.89042956987 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 24 
+Phase : Train :: Epoch : 24 :: Loss : 89.6025778651 :: Accuracy : 0.89138199084 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 25 
+Phase : Train :: Epoch : 25 :: Loss : 89.2272739112 :: Accuracy : 0.892460467527 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 26 
+Phase : Train :: Epoch : 26 :: Loss : 88.882163018 :: Accuracy : 0.893034721347 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 27 
+Phase : Train :: Epoch : 27 :: Loss : 88.5804561675 :: Accuracy : 0.893608975167 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 28 
+Phase : Train :: Epoch : 28 :: Loss : 88.305037111 :: Accuracy : 0.894127204224 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 29 
+Phase : Train :: Epoch : 29 :: Loss : 88.0061293542 :: Accuracy : 0.894645433282 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 30 
+Phase : Train :: Epoch : 30 :: Loss : 87.7466948628 :: Accuracy : 0.895303724246 : LR : 1e-05
+Model saved to disk... /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/GRU_HOOF_ep30_seq27_Adam.pt
+Time for training : 1427.83062601
+Prediction video meta info.
+Size : [4949, 4369, 4455, 4317, 4452]
+22412
+Loading validation/test features from disk...
+Features loaded into dictionary ...
+Predicting on the validation/test videos...
+Predictions done on validation/test set...
+Prediction file /home/arpan/VisionWorkspace/localization_gru/logs/GRU_wthoofHL_log_hidden1k/predicted_localizations_th0_5_filt60_ep30_seq27.json !!
+Done 0 : ICC WT20/ICC WT20 Ireland v Oman Match Highlights.avi
+TIoU for video : 0.493906541496
+Done 1 : ICC WT20/ICC WT20 Netherlands vs Ireland Match Highlights.avi
+TIoU for video : 0.543435138029
+Done 2 : ICC WT20/ICC WT20 Scotland vs Afghanistan Highlights.avi
+TIoU for video : 0.671521747493
+Done 3 : ICC WT20/ICC WT20 Ireland vs Oman Highlights.avi
+TIoU for video : 0.578661881158
+Done 4 : ICC WT20/ICC WT20 New Zealand vs Pakistan - Match Highlights.avi
+TIoU for video : 0.570565546913
+Total segments : 105
+Total_tiou (all vids) : 59.7285079948
+Weighted Averaged TIoU  : 0.568842933284
+#Parameters : 3307001 
+############################################################
+############################################################
+SEQ_SIZE : 28
+No. of training videos : 16
+Size : [4404, 4353, 4036, 4302, 4579, 4497, 4451, 4499, 5057, 4497, 4450, 4473, 4231, 4489, 5046, 4449]
+71381
+Loading features from disk...
+Features loaded into dictionary ...
+71381
+('INP_VEC_SIZE = ', 100)
+------------------------------------------------------------
+Epoch -> 1 
+Phase : Train :: Epoch : 1 :: Loss : 129.708359838 :: Accuracy : 0.802734621258 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 2 
+Phase : Train :: Epoch : 2 :: Loss : 119.318514824 :: Accuracy : 0.826662557263 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 3 
+Phase : Train :: Epoch : 3 :: Loss : 116.832493007 :: Accuracy : 0.830837337667 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 4 
+Phase : Train :: Epoch : 4 :: Loss : 115.316289276 :: Accuracy : 0.83300878385 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 5 
+Phase : Train :: Epoch : 5 :: Loss : 114.200779766 :: Accuracy : 0.83498409941 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 6 
+Phase : Train :: Epoch : 6 :: Loss : 113.517202556 :: Accuracy : 0.837267620235 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 7 
+Phase : Train :: Epoch : 7 :: Loss : 112.674094707 :: Accuracy : 0.838738599908 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 8 
+Phase : Train :: Epoch : 8 :: Loss : 111.955641866 :: Accuracy : 0.840601840826 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 9 
+Phase : Train :: Epoch : 9 :: Loss : 111.634254545 :: Accuracy : 0.840825990109 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 10 
+Phase : Train :: Epoch : 10 :: Loss : 110.281924486 :: Accuracy : 0.843221585576 : LR : 0.001
+------------------------------------------------------------
+Epoch -> 11 
+Phase : Train :: Epoch : 11 :: Loss : 107.244404286 :: Accuracy : 0.853476415293 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 12 
+Phase : Train :: Epoch : 12 :: Loss : 103.901908189 :: Accuracy : 0.860593155041 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 13 
+Phase : Train :: Epoch : 13 :: Loss : 101.50945425 :: Accuracy : 0.865622504588 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 14 
+Phase : Train :: Epoch : 14 :: Loss : 99.8312930167 :: Accuracy : 0.869895350303 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 15 
+Phase : Train :: Epoch : 15 :: Loss : 98.2625533342 :: Accuracy : 0.873859990754 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 16 
+Phase : Train :: Epoch : 16 :: Loss : 96.6228867173 :: Accuracy : 0.876829968759 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 17 
+Phase : Train :: Epoch : 17 :: Loss : 94.998021394 :: Accuracy : 0.88148106639 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 18 
+Phase : Train :: Epoch : 18 :: Loss : 93.8893136978 :: Accuracy : 0.883050111374 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 19 
+Phase : Train :: Epoch : 19 :: Loss : 92.6318967342 :: Accuracy : 0.885277594878 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 20 
+Phase : Train :: Epoch : 20 :: Loss : 91.4780935645 :: Accuracy : 0.886370322635 : LR : 0.0001
+------------------------------------------------------------
+Epoch -> 21 
+Phase : Train :: Epoch : 21 :: Loss : 90.0958457887 :: Accuracy : 0.88929827265 : LR : 1e-05
+------------------------------------------------------------
+Epoch -> 22 
